@@ -26,6 +26,10 @@ elseif params.model == 'overfeat' then
 nets[#nets+1] = require 'overfeat'
 elseif params.model == 'vgg_a' then
 nets[#nets+1] = require 'vgg_a'
+elseif params.model == 'vgg_16' then
+nets[#nets+1] = require 'vgg_16'
+elseif params.model == 'vgg_19' then
+nets[#nets+1] = require 'vgg_19'
 elseif params.model == 'googlenet' then
 nets[#nets+1] = require 'googlenet'
 end
